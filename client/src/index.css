@@ -1,0 +1,41 @@
+.space-around{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+.no-wrap{
+  flex-wrap: nowrap;
+}
+.column{
+  flex-direction: column;
+}
+body{
+  width: 100vw;
+  overflow-x: hidden;
+  padding: 5;
+}
+.btn{
+  font-size-adjust: initial;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 140px;
+  height: 50px;
+}
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-center{
+  text-align: center;
+}
+.pastille{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  
+}
